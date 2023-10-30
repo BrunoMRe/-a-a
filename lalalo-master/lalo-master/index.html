@@ -1,0 +1,1191 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<title>Lalo tienda</title>
+		<link rel="stylesheet" href="styles.css" />  <!-- Enlace a una hoja de estilos externa (styles.css) -->
+		
+	</head>
+	<body>
+		<header>
+			<div>
+		    <img src="https://cdn-icons-png.flaticon.com/256/1384/1384063.png" width="=25" height="25" >
+		    <a href="https://www.instagram.com/lalotiendadebebidas/" target="_blank">Seguinos</a>
+			</div>
+ 			<h1>Lalo Tienda de Bebidas</h1>
+			
+			<div class="container-icon">
+				
+				<div class="container-cart-icon">
+                    <!-- Icono del carrito -->
+					<svg
+						xmlns="http://www.w3.org/2000/svg"
+						fill="none"
+						viewBox="0 0 24 24"
+						stroke-width="1.5"
+						stroke="currentColor"
+						class="icon-cart"
+					>
+						<path
+							stroke-linecap="round"
+							stroke-linejoin="round"
+							d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z"
+						/>
+					</svg>
+					<div class="count-products">
+						<span id="contador-productos">0</span> <!-- Muestra la cantidad de productos en el carrito -->
+					</div>
+				</div>
+
+				<div class="container-cart-products hidden-cart"> <!-- Contenedor del carrito de compras (inicialmente oculto) -->
+					<div class="row-product hidden">
+						<div class="cart-product">
+							<div class="info-cart-product">
+								<span class="cantidad-producto-carrito">1</span> <!-- Cantidad de un producto en el carrito --> 
+								<p class="titulo-producto-carrito">Zapatos Nike</p> <!-- Nombre del producto en el carrito -->
+								<span class="precio-producto-carrito">$80</span> <!-- Precio del producto en el carrito -->
+							</div>
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								fill="none"
+								viewBox="0 0 24 24"
+								stroke-width="1.5"
+								stroke="currentColor"
+								class="icon-close"
+							>
+								<path
+									stroke-linecap="round"
+									stroke-linejoin="round"
+									d="M6 18L18 6M6 6l12 12"
+								/>
+							</svg>
+						</div>
+					</div>
+
+					<div class="cart-total hidden">
+						<h3>Total:</h3>
+						<span class="total-pagar">$200</span> <!-- Muestra el total a pagar en el carrito -->
+					</div>
+					<p class="cart-empty">El carrito está vacío</p>
+				</div>
+			</div>
+		</header>
+		  <hr>
+          <br>
+		  <div class="titulos-bebidas">
+		  <h2>Cervezas</h2>
+		</div>
+         <br>
+		<div class="container-cervezas">
+    <!-- Contenedor de los productos -->
+			<div class="item">
+				<figure>
+					<img
+						src="c:/Users/ROG BY NG/OneDrive/Escritorio/lalomaster/img_lalo/Cerveza1.jpeg."
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Cervezas</h2>
+					<p class="price">$80</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+						src="c:/Users/ROG BY NG/OneDrive/Escritorio/lalomaster/img_lalo/Cerveza1.jpeg."
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Cervezas</h2>
+					<p class="price">$80</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div><div class="item">
+				<figure>
+					<img
+						src="c:/Users/ROG BY NG/OneDrive/Escritorio/lalomaster/img_lalo/Cerveza1.jpeg."
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Cervezas</h2>
+					<p class="price">$80</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div><div class="item">
+				<figure>
+					<img
+						src="c:/Users/ROG BY NG/OneDrive/Escritorio/lalomaster/img_lalo/Cerveza1.jpeg."
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Cervezas</h2>
+					<p class="price">$80</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div><div class="item">
+				<figure>
+					<img
+						src="c:/Users/ROG BY NG/OneDrive/Escritorio/lalomaster/img_lalo/Cerveza1.jpeg."
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Cervezas</h2>
+					<p class="price">$80</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+				
+			</div>
+          <br>
+</div>
+<hr>
+<br>
+<div class="titulos-bebidas">
+<h2>Tequilas</h2>
+</div>
+<br>
+<div class="container-tequila">
+<!-- Contenedor de los productos -->
+  <div class="item">
+	  <figure>
+		  <img
+			  src="c:/Users/ROG BY NG/OneDrive/Escritorio/lalomaster/img_lalo/Tequilas.jpeg."
+			  alt="producto"
+		  />
+	  </figure>
+	  <div class="info-product">
+		  <h2>Tequila</h2>
+		  <p class="price">$80</p>
+		  <button class="btn-add-cart">Añadir al carrito</button>
+	  </div>
+  </div>
+  <div class="item">
+	  <figure>
+		  <img
+			  src="c:/Users/ROG BY NG/OneDrive/Escritorio/lalomaster/img_lalo/Tequilas.jpeg."
+			  alt="producto"
+		  />
+	  </figure>
+	  <div class="info-product">
+		  <h2>Tequila</h2>
+		  <p class="price">$80</p>
+		  <button class="btn-add-cart">Añadir al carrito</button>
+	  </div>
+  </div><div class="item">
+	  <figure>
+		  <img
+			  src="c:/Users/ROG BY NG/OneDrive/Escritorio/lalomaster/img_lalo/Tequilas.jpeg."
+			  alt="producto"
+		  />
+	  </figure>
+	  <div class="info-product">
+		  <h2>Tequila</h2>
+		  <p class="price">$80</p>
+		  <button class="btn-add-cart">Añadir al carrito</button>
+	  </div>
+  </div><div class="item">
+	  <figure>
+		  <img
+			  src="c:/Users/ROG BY NG/OneDrive/Escritorio/lalomaster/img_lalo/Tequilas.jpeg."
+			  alt="producto"
+		  />
+	  </figure>
+	  <div class="info-product">
+		  <h2>Tequila</h2>
+		  <p class="price">$80</p>
+		  <button class="btn-add-cart">Añadir al carrito</button>
+	  </div>
+  </div><div class="item">
+	  <figure>
+		  <img
+			  src="c:/Users/ROG BY NG/OneDrive/Escritorio/lalomaster/img_lalo/Tequilas.jpeg."
+			  alt="producto"
+		  />
+	  </figure>
+	  <div class="info-product">
+		  <h2>Tequila</h2>
+		  <p class="price">$80</p>
+		  <button class="btn-add-cart">Añadir al carrito</button>
+	  </div>	  
+  </div>
+<br>
+</div>
+<hr>
+<br>
+<div class="titulos-bebidas">
+<h2>Energizante</h2>
+</div>
+<br>
+<div class="container-energizante">
+<!-- Contenedor de los productos -->
+  <div class="item">
+	  <figure>
+		  <img
+			  src="c:/Users/ROG BY NG/OneDrive/Escritorio/lalomaster/img_lalo/energizante.jpg."
+			  alt="producto"
+		  />
+	  </figure>
+	  <div class="info-product">
+		  <h2>Energizante</h2>
+		  <p class="price">$80</p>
+		  <button class="btn-add-cart">Añadir al carrito</button>
+	  </div>
+  </div>
+  <div class="item">
+	  <figure>
+		  <img
+			  src="c:/Users/ROG BY NG/OneDrive/Escritorio/lalomaster/img_lalo/energizante.jpg."
+			  alt="producto"
+		  />
+	  </figure>
+	  <div class="info-product">
+		  <h2>Energizante</h2>
+		  <p class="price">$80</p>
+		  <button class="btn-add-cart">Añadir al carrito</button>
+	  </div>
+  </div><div class="item">
+	  <figure>
+		  <img
+			  src="c:/Users/ROG BY NG/OneDrive/Escritorio/lalomaster/img_lalo/energizante.jpg."
+			  alt="producto"
+		  />
+	  </figure>
+	  <div class="info-product">
+		  <h2>Energizante</h2>
+		  <p class="price">$80</p>
+		  <button class="btn-add-cart">Añadir al carrito</button>
+	  </div>
+  </div><div class="item">
+	  <figure>
+		  <img
+			  src="c:/Users/ROG BY NG/OneDrive/Escritorio/lalomaster/img_lalo/energizante.jpg."
+			  alt="producto"
+		  />
+	  </figure>
+	  <div class="info-product">
+		  <h2>Energizante</h2>
+		  <p class="price">$80</p>
+		  <button class="btn-add-cart">Añadir al carrito</button>
+	  </div>
+  </div><div class="item">
+	  <figure>
+		  <img
+			  src="c:/Users/ROG BY NG/OneDrive/Escritorio/lalomaster/img_lalo/energizante.jpg."
+			  alt="producto"
+		  />
+	  </figure>
+	  <div class="info-product">
+		  <h2>Energizante</h2>
+		  <p class="price">$80</p>
+		  <button class="btn-add-cart">Añadir al carrito</button>
+	  </div>	  
+  </div>
+<br>
+</div>
+<br>
+</div>
+<hr>
+<br>
+<div class="titulos-bebidas">
+<h2>Gaseosas</h2>
+</div>
+<br>
+<div class="container-gaseosas">
+<!-- Contenedor de los productos -->
+  <div class="item">
+	  <figure>
+		  <img
+			  src="c:/Users/ROG BY NG/OneDrive/Escritorio/lalomaster/img_lalo/gaseosas.jpeg."
+			  alt="producto"
+		  />
+	  </figure>
+	  <div class="info-product">
+		  <h2>Gaseosas</h2>
+		  <p class="price">$80</p>
+		  <button class="btn-add-cart">Añadir al carrito</button>
+	  </div>
+  </div>
+  <div class="item">
+	  <figure>
+		  <img
+			  src="c:/Users/ROG BY NG/OneDrive/Escritorio/lalomaster/img_lalo/gaseosas.jpeg."
+			  alt="producto"
+		  />
+	  </figure>
+	  <div class="info-product">
+		  <h2>Gaseosas</h2>
+		  <p class="price">$80</p>
+		  <button class="btn-add-cart">Añadir al carrito</button>
+	  </div>
+  </div><div class="item">
+	  <figure>
+		  <img
+			  src="c:/Users/ROG BY NG/OneDrive/Escritorio/lalomaster/img_lalo/gaseosas.jpeg."
+			  alt="producto"
+		  />
+	  </figure>
+	  <div class="info-product">
+		  <h2>Gaseosas</h2>
+		  <p class="price">$80</p>
+		  <button class="btn-add-cart">Añadir al carrito</button>
+	  </div>
+  </div><div class="item">
+	  <figure>
+		  <img
+			  src="c:/Users/ROG BY NG/OneDrive/Escritorio/lalomaster/img_lalo/gaseosas.jpeg."
+			  alt="producto"
+		  />
+	  </figure>
+	  <div class="info-product">
+		  <h2>Gaseosas</h2>
+		  <p class="price">$80</p>
+		  <button class="btn-add-cart">Añadir al carrito</button>
+	  </div>
+  </div><div class="item">
+	  <figure>
+		  <img
+			  src="c:/Users/ROG BY NG/OneDrive/Escritorio/lalomaster/img_lalo/gaseosas.jpeg."
+			  alt="producto"
+		  />
+	  </figure>
+	  <div class="info-product">
+		  <h2>Gaseosas</h2>
+		  <p class="price">$80</p>
+		  <button class="btn-add-cart">Añadir al carrito</button>
+	  </div>	  
+  </div>
+<br>
+</div>
+<hr>
+          <br>
+		  <div class="titulos-bebidas">
+		  <h2>Aguas</h2>
+		</div>
+         <br>
+		<div class="container-aguas">
+    <!-- Contenedor de los productos -->
+			<div class="item">
+				<figure>
+					<img
+						src="c:/Users/ROG BY NG/OneDrive/Escritorio/lalomaster/img_lalo/aguas.jpg."
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Agua</h2>
+					<p class="price">$80</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+						src="c:/Users/ROG BY NG/OneDrive/Escritorio/lalomaster/img_lalo/aguas.jpg."
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Agua</h2>
+					<p class="price">$80</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div><div class="item">
+				<figure>
+					<img
+						src="c:/Users/ROG BY NG/OneDrive/Escritorio/lalomaster/img_lalo/aguas.jpg."
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Agua</h2>
+					<p class="price">$80</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div><div class="item">
+				<figure>
+					<img
+						src="c:/Users/ROG BY NG/OneDrive/Escritorio/lalomaster/img_lalo/aguas.jpg."
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Agua</h2>
+					<p class="price">$80</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div><div class="item">
+				<figure>
+					<img
+						src="c:/Users/ROG BY NG/OneDrive/Escritorio/lalomaster/img_lalo/aguas.jpg."
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Agua</h2>
+					<p class="price">$80</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+				
+			</div>
+          <br>
+</div>
+<hr>
+          <br>
+		  <div class="titulos-vodka">
+		  <h2>Vodka</h2>
+		</div>
+         <br>
+		<div class="container-vodka">
+    <!-- Contenedor de los productos -->
+			<div class="item">
+				<figure>
+					<img
+						src="c:/Users/ROG BY NG/OneDrive/Escritorio/lalomaster/img_lalo/vodka.jpg."
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Vodka</h2>
+					<p class="price">$80</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+						src="c:/Users/ROG BY NG/OneDrive/Escritorio/lalomaster/img_lalo/vodka.jpg."
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Vodka</h2>
+					<p class="price">$80</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div><div class="item">
+				<figure>
+					<img
+						src="c:/Users/ROG BY NG/OneDrive/Escritorio/lalomaster/img_lalo/vodka.jpg."
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Vodka</h2>
+					<p class="price">$80</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div><div class="item">
+				<figure>
+					<img
+						src="c:/Users/ROG BY NG/OneDrive/Escritorio/lalomaster/img_lalo/vodka.jpg."
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Vodka</h2>
+					<p class="price">$80</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div><div class="item">
+				<figure>
+					<img
+						src="c:/Users/ROG BY NG/OneDrive/Escritorio/lalomaster/img_lalo/vodka.jpg."
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Vodka</h2>
+					<p class="price">$80</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+				
+			</div>
+          <br>
+</div>
+<hr>
+          <br>
+		  <div class="titulos-gin">
+		  <h2>Gin</h2>
+		</div>
+         <br>
+		<div class="container-gin">
+    <!-- Contenedor de los productos -->
+			<div class="item">
+				<figure>
+					<img
+						src="c:/Users/ROG BY NG/OneDrive/Escritorio/lalomaster/img_lalo/gin.jpeg."
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>gin</h2>
+					<p class="price">$80</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+						src="c:/Users/ROG BY NG/OneDrive/Escritorio/lalomaster/img_lalo/gin.jpeg."
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>gin</h2>
+					<p class="price">$80</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div><div class="item">
+				<figure>
+					<img
+						src="c:/Users/ROG BY NG/OneDrive/Escritorio/lalomaster/img_lalo/gin.jpeg."
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>gin</h2>
+					<p class="price">$80</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div><div class="item">
+				<figure>
+					<img
+						src="c:/Users/ROG BY NG/OneDrive/Escritorio/lalomaster/img_lalo/gin.jpeg."
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>gin</h2>
+					<p class="price">$80</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div><div class="item">
+				<figure>
+					<img
+						src="c:/Users/ROG BY NG/OneDrive/Escritorio/lalomaster/img_lalo/gin.jpeg."
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>gin</h2>
+					<p class="price">$80</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+				
+			</div>
+          <br>
+</div>
+<hr>
+          <br>
+		  <div class="titulos-aperitivos">
+		  <h2>Aperitivos</h2>
+		</div>
+         <br>
+		<div class="container-aperitivos">
+    <!-- Contenedor de los productos -->
+			<div class="item">
+				<figure>
+					<img
+						src="c:/Users/ROG BY NG/OneDrive/Escritorio/lalomaster/img_lalo/aperitivos.jpeg."
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Aperitivos</h2>
+					<p class="price">$80</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+						src="c:/Users/ROG BY NG/OneDrive/Escritorio/lalomaster/img_lalo/aperitivos.jpeg."
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Aperitivos</h2>
+					<p class="price">$80</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div><div class="item">
+				<figure>
+					<img
+						src="c:/Users/ROG BY NG/OneDrive/Escritorio/lalomaster/img_lalo/aperitivos.jpeg."
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Aperitivos</h2>
+					<p class="price">$80</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div><div class="item">
+				<figure>
+					<img
+						src="c:/Users/ROG BY NG/OneDrive/Escritorio/lalomaster/img_lalo/aperitivos.jpeg."
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Aperitivos</h2>
+					<p class="price">$80</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div><div class="item">
+				<figure>
+					<img
+						src="c:/Users/ROG BY NG/OneDrive/Escritorio/lalomaster/img_lalo/aperitivos.jpeg."
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Aperitivos</h2>
+					<p class="price">$80</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+				
+			</div>
+          <br>
+</div>
+<hr>
+          <br>
+		  <div class="titulos-champagne">
+		  <h2>Champagne</h2>
+		</div>
+         <br>
+		<div class="container-champagne">
+    <!-- Contenedor de los productos -->
+			<div class="item">
+				<figure>
+					<img
+						src="c:/Users/ROG BY NG/OneDrive/Escritorio/lalomaster/img_lalo/champagne.jpeg."
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Champagne</h2>
+					<p class="price">$80</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+						src="c:/Users/ROG BY NG/OneDrive/Escritorio/lalomaster/img_lalo/champagne.jpeg."
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Champagne</h2>
+					<p class="price">$80</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div><div class="item">
+				<figure>
+					<img
+						src="c:/Users/ROG BY NG/OneDrive/Escritorio/lalomaster/img_lalo/champagne.jpeg."
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Champagne</h2>
+					<p class="price">$80</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div><div class="item">
+				<figure>
+					<img
+						src="c:/Users/ROG BY NG/OneDrive/Escritorio/lalomaster/img_lalo/champagne.jpeg."
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Champagne</h2>
+					<p class="price">$80</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div><div class="item">
+				<figure>
+					<img
+						src="c:/Users/ROG BY NG/OneDrive/Escritorio/lalomaster/img_lalo/champagne.jpeg."
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Champagne</h2>
+					<p class="price">$80</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+				
+			</div>
+          <br>
+</div>
+<hr>
+          <br>
+		  <div class="titulos-jugos">
+		  <h2>Jugos</h2>
+		</div>
+         <br>
+		<div class="container-jugos">
+    <!-- Contenedor de los productos -->
+			<div class="item">
+				<figure>
+					<img
+						src="c:/Users/ROG BY NG/OneDrive/Escritorio/lalomaster/img_lalo/Jugos.jpeg."
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Jugos</h2>
+					<p class="price">$80</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+						src="c:/Users/ROG BY NG/OneDrive/Escritorio/lalomaster/img_lalo/Jugos.jpeg."
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Jugos</h2>
+					<p class="price">$80</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div><div class="item">
+				<figure>
+					<img
+						src="c:/Users/ROG BY NG/OneDrive/Escritorio/lalomaster/img_lalo/Jugos.jpeg."
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Jugos</h2>
+					<p class="price">$80</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div><div class="item">
+				<figure>
+					<img
+						src="c:/Users/ROG BY NG/OneDrive/Escritorio/lalomaster/img_lalo/Jugos.jpeg."
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Jugos</h2>
+					<p class="price">$80</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div><div class="item">
+				<figure>
+					<img
+						src="c:/Users/ROG BY NG/OneDrive/Escritorio/lalomaster/img_lalo/Jugos.jpeg."
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Jugos</h2>
+					<p class="price">$80</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+				
+			</div>
+          <br>
+</div>
+<hr>
+          <br>
+		  <div class="titulos-licor">
+		  <h2>Licores</h2>
+		</div>
+         <br>
+		<div class="container-licor">
+    <!-- Contenedor de los productos -->
+			<div class="item">
+				<figure>
+					<img
+						src="c:/Users/ROG BY NG/OneDrive/Escritorio/lalomaster/img_lalo/licores.jpeg."
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Licore</h2>
+					<p class="price">$80</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+						src="c:/Users/ROG BY NG/OneDrive/Escritorio/lalomaster/img_lalo/licores.jpeg."
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>licor</h2>
+					<p class="price">$80</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div><div class="item">
+				<figure>
+					<img
+						src="c:/Users/ROG BY NG/OneDrive/Escritorio/lalomaster/img_lalo/licores.jpeg."
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>licor</h2>
+					<p class="price">$80</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div><div class="item">
+				<figure>
+					<img
+						src="c:/Users/ROG BY NG/OneDrive/Escritorio/lalomaster/img_lalo/licores.jpeg."
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>licorr</h2>
+					<p class="price">$80</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div><div class="item">
+				<figure>
+					<img
+						src="c:/Users/ROG BY NG/OneDrive/Escritorio/lalomaster/img_lalo/licores.jpeg."
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>licor</h2>
+					<p class="price">$80</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+				
+			</div>
+          <br>
+</div>
+<hr>
+          <br>
+		  <div class="titulos-pulpa">
+		  <h2>Pulpas</h2>
+		</div>
+         <br>
+		<div class="container-pulpa">
+    <!-- Contenedor de los productos -->
+			<div class="item">
+				<figure>
+					<img
+						src="c:/Users/ROG BY NG/OneDrive/Escritorio/lalomaster/img_lalo/pulpas.jpeg."
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Pulpa</h2>
+					<p class="price">$80</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+						src="c:/Users/ROG BY NG/OneDrive/Escritorio/lalomaster/img_lalo/pulpas.jpeg."
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Pulpa</h2>
+					<p class="price">$80</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div><div class="item">
+				<figure>
+					<img
+						src="c:/Users/ROG BY NG/OneDrive/Escritorio/lalomaster/img_lalo/pulpas.jpeg."
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Pulpa</h2>
+					<p class="price">$80</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div><div class="item">
+				<figure>
+					<img
+						src="c:/Users/ROG BY NG/OneDrive/Escritorio/lalomaster/img_lalo/pulpas.jpeg."
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Pulpa</h2>
+					<p class="price">$80</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div><div class="item">
+				<figure>
+					<img
+						src="c:/Users/ROG BY NG/OneDrive/Escritorio/lalomaster/img_lalo/pulpas.jpeg."
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Pulpa</h2>
+					<p class="price">$80</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+				
+			</div>
+          <br>
+</div>
+<hr>
+          <br>
+		  <div class="titulos-vino">
+		  <h2>Vinos</h2>
+		</div>
+         <br>
+		<div class="container-vino">
+    <!-- Contenedor de los productos -->
+			<div class="item">
+				<figure>
+					<img
+						src="c:/Users/ROG BY NG/OneDrive/Escritorio/lalomaster/img_lalo/Vino.jpeg."
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Vino</h2>
+					<p class="price">$80</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+						src="c:/Users/ROG BY NG/OneDrive/Escritorio/lalomaster/img_lalo/Vino.jpeg."
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Vino</h2>
+					<p class="price">$80</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div><div class="item">
+				<figure>
+					<img
+						src="c:/Users/ROG BY NG/OneDrive/Escritorio/lalomaster/img_lalo/Vino.jpeg."
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Vino</h2>
+					<p class="price">$80</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div><div class="item">
+				<figure>
+					<img
+						src="c:/Users/ROG BY NG/OneDrive/Escritorio/lalomaster/img_lalo/Vino.jpeg."
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Vino</h2>
+					<p class="price">$80</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div><div class="item">
+				<figure>
+					<img
+						src="c:/Users/ROG BY NG/OneDrive/Escritorio/lalomaster/img_lalo/Vino.jpeg."
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Vino</h2>
+					<p class="price">$80</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+				
+			</div>
+          <br>
+</div>
+<hr>
+          <br>
+		  <div class="titulos-whisky">
+		  <h2>Whiskys</h2>
+		</div>
+         <br>
+		<div class="container-whisky">
+    <!-- Contenedor de los productos -->
+			<div class="item">
+				<figure>
+					<img
+						src="c:/Users/ROG BY NG/OneDrive/Escritorio/lalomaster/img_lalo/Whisky.jpeg."
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Whisky</h2>
+					<p class="price">$80</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+						src="c:/Users/ROG BY NG/OneDrive/Escritorio/lalomaster/img_lalo/Whisky.jpeg."
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Whisky</h2>
+					<p class="price">$80</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div><div class="item">
+				<figure>
+					<img
+						src="c:/Users/ROG BY NG/OneDrive/Escritorio/lalomaster/img_lalo/Whisky.jpeg."
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Whisky</h2>
+					<p class="price">$80</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div><div class="item">
+				<figure>
+					<img
+						src="c:/Users/ROG BY NG/OneDrive/Escritorio/lalomaster/img_lalo/Whisky.jpeg."
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Whisky</h2>
+					<p class="price">$80</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div><div class="item">
+				<figure>
+					<img
+						src="c:/Users/ROG BY NG/OneDrive/Escritorio/lalomaster/img_lalo/Whisky.jpeg."
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Whisky</h2>
+					<p class="price">$80</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+				
+			</div>
+          <br>
+</div>
+<hr>
+          <br>
+		  <div class="titulos-coleccion">
+		  <h2>Colecciones</h2>
+		</div>
+         <br>
+		<div class="container-coleccion">
+    <!-- Contenedor de los productos -->
+			<div class="item">
+				<figure>
+					<img
+						src="c:/Users/ROG BY NG/OneDrive/Escritorio/lalomaster/img_lalo/Whisky.jpeg."
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Coleccion</h2>
+					<p class="price">$80</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+						src="c:/Users/ROG BY NG/OneDrive/Escritorio/lalomaster/img_lalo/Whisky.jpeg."
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Coleccion</h2>
+					<p class="price">$80</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div><div class="item">
+				<figure>
+					<img
+						src="c:/Users/ROG BY NG/OneDrive/Escritorio/lalomaster/img_lalo/Whisky.jpeg."
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Coleccion</h2>
+					<p class="price">$80</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div><div class="item">
+				<figure>
+					<img
+						src="c:/Users/ROG BY NG/OneDrive/Escritorio/lalomaster/img_lalo/Whisky.jpeg."
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Coleccion</h2>
+					<p class="price">$80</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div><div class="item">
+				<figure>
+					<img
+						src="c:/Users/ROG BY NG/OneDrive/Escritorio/lalomaster/img_lalo/Whisky.jpeg."
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Coleccion</h2>
+					<p class="price">$80</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+				
+			</div>
+          <br>
+</div>
+			
+		
+
+		<script src="index.js"></script>
+		
+	</body>
+	<br>
+	<hr>
+	<h4>Comunicate con nosotros: Ariel:3816473282-Exequiel:3816222738</h4>
+	<a href="https://www.google.com/maps/place/26%C2%B043'52.8%22S+65%C2%B015'36.1%22W/@-26.7313172,-65.2625959,17z/data=!3m1!4b1!4m4!3m3!8m2!3d-26.731322!4d-65.260021?entry=ttu" target="_blank" >Ubicacion</a>
+	<br>
+	<br>
+	<br>
+	<br>
+	<h6>ALL RIGHTS RESERVED. POWERED BY Delpu. NOT AFFILIATED WITH nacho.
+		COPYRIGHT © 2023 los @yud0. ALL RIGHTS RESERVED.</h6>
+	<hr>
+    <br>
+
+</html>
