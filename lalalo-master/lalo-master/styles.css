@@ -13,9 +13,16 @@ body{
     max-width: 1200px;
     font-family: 'Lato';
     color: #fff;
-    background-color: #080808;
+    background-image: url('img/e0477bd0-501e-40f7-9ea3-b9ab9ed033cc.jfif');
+    background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el fondo */
+    background-position: center center; /* Centra la imagen en el fondo */
+    background-attachment: fixed; /* Opcional: fija el fondo, de modo que no se desplace con el contenido */
 }
 
+h1{
+    color: hsl(0, 0%, 100%);
+    text-shadow: 4px 4px 6px rgba(0, 0, 0, 1);
+}
 /* Estilos para el icono de carrito de compras */
 .icon-cart{
     width: 40px;
@@ -259,6 +266,7 @@ header{
     display: flex;
     flex-direction: column;
     gap: 10px;
+    text-align: center;
 }
 
 .price{
